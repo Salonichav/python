@@ -107,7 +107,7 @@ def hangman():
             print(" Wrong guess!")
             if wrong_guesses == max_guesses:
                 print(HANGMANPICS[wrong_guesses])
-                print("\n💀 You lost! The word was:", secret_word)
+                print("\n You lost! The word was:", secret_word)
                 break
         else:
             print(" Good guess!")
