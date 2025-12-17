@@ -48,6 +48,6 @@ class CoffeeMachine:
         self.water -= 200
         self.milk -= 100
         self.coffee -= 20
-        print("\n☕ Your coffee is ready! Enjoy ☕")
+        print("\n Your coffee is ready! Enjoy ")
 
 
