@@ -49,5 +49,14 @@ class CoffeeMachine:
         self.milk -= 100
         self.coffee -= 20
         print("\n Your coffee is ready! Enjoy ")
+        machine = CoffeeMachine()
+
+machine.print_report()
+
+if machine.check_resources():
+    payment = machine.process_coins()
+    if machine.check_transaction(payment):
+        machine.make_coffee()
+        machine.print_report()
 
 
